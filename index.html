@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars | AutoVerse</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<button id="topBtn">⬆</button>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🚗 AutoVerse
+        </div>
+
+        <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="cars.html">Cars</a></li>
+    <li><a href="compare.html">Compare</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+             <button id="themeBtn">🌙</button>
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+
+        <h1>Our Car Collection</h1>
+
+<p>
+Browse luxury, sports, SUVs and hypercars from the world's top brands.
+</p>
+
+        <a href="cars.html">
+    <button>Explore Cars</button>
+</a>
+
+    </section>
+    <section class="featured-car">
+
+    <div class="featured-content">
+
+        <div class="featured-text">
+            <h2>🏆 Featured Car of the Week</h2>
+
+            <h1>Koenigsegg Jesko</h1>
+
+            <p>
+                One of the fastest production cars ever built.
+                Powered by a 5.0L Twin-Turbo V8 producing
+                up to 1600 HP.
+            </p>
+
+            <a href="cars.html">
+                <button class="details-btn">
+                    Explore Now
+                </button>
+            </a>
+        </div>
+
+        <div class="featured-image">
+            <img src="images/Koenigsegg jesko.jpg" alt="Jesko">
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= SEARCH SECTION ================= -->
+
+<section class="search-section">
+
+    <h2>🔍 Search Your Favorite Car</h2>
+
+    <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search Ferrari, BMW, Bentley..." onkeyup="searchCars()">
+    <button id="searchButton">Search</button>
+</div>
+
+</section>
+    <!-- ================= FEATURED CARS ================= -->
+
+    <section class="cars">
+
+        <h2>🔥 Featured Cars</h2>
+
+        <div class="car-container">
+
+            <!-- Ferrari -->
+
+            <div class="car-card" id="ferrari">
+
+    <img src="images/Ferrari.jpg" alt="Ferrari">
+
+    <div class="car-info">
+
+        <h3>Ferrari LaFerrari ❤️</h3>
+
+        <p>Price: ₹7.50 Cr</p>
+
+        <p>789 HP • Top Speed: 350 km/h</p>
+
+       <a href="ferrari.html">
+    <button class="details-btn">View Details</button>
+</a>
+        <button class="fav-btn">🤍 Favorite</button>
+
+    </div>
+
+</div>
+
+            <!-- BMW -->
+
+         <div class="car-card" id="bmw">
+
+    <img src="images/BMW M5.jpg" alt="BMW M5">
+
+    <div class="car-info">
+
+        <h3>BMW M5</h3>
+
+        <p>Price: ₹2.20 Cr</p>
+
+        <p>717 HP • Top Speed: 305 km/h</p>
+
+       <a href="bmw m5.html">
+    <button class="details-btn">View Details</button>
+</a>
+        <button class="fav-btn">🤍 Favorite</button>
+
+    </div>
+
+</div>
+
+            <!-- Bentley -->
+
+         <div class="car-card" id="bentley">
+
+    <img src="images/Bentley.jpg" alt="Bentley">
+
+    <div class="car-info">
+
+        <h3>Bentley Continental GT</h3>
+
+        <p>Price: ₹5.50 Cr</p>
+
+        <p>771 HP • Top Speed: 335 km/h</p>
+
+       <a href="bentley.html">
+    <button class="details-btn">View Details</button>
+</a>
+        <button class="fav-btn">🤍 Favorite</button>
+
+    </div>
+
+</div>
+    <!-- ================= POPULAR BRANDS ================= -->
+
+    <section class="cars">
+
+        <h2>🏁 Popular Brands</h2>
+
+        <div class="car-container">
+
+            <div class="car-card">
+                <div class="car-info">
+                    <h3>Ferrari</h3>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-info">
+                    <h3>BMW</h3>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-info">
+                    <h3>Bentley</h3>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-info">
+                    <h3>Lamborghini</h3>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-info">
+                    <h3>Porsche</h3>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-info">
+                    <h3>Bugatti</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+<!-- ================= LATEST LAUNCHES ================= -->
+
+<section class="cars">
+
+    <h2>🚀 Latest Launches</h2>
+
+    <div class="car-container">
+
+        <div class="car-card">
+            <img src="images/Ferrari.jpg" alt="Ferrari">
+            <div class="car-info">
+                <h3>Ferrari F80</h3>
+                <p>Released: 2025</p>
+                <p>1200 HP</p>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <img src="images/BMW M5.jpg" alt="BMW">
+            <div class="car-info">
+                <h3>BMW M5 Hybrid</h3>
+                <p>Released: 2025</p>
+                <p>717 HP</p>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <img src="images/Bentley.jpg" alt="Bentley">
+            <div class="car-info">
+                <h3>Bentley GT Speed</h3>
+                <p>Released: 2025</p>
+                <p>771 HP</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= STATISTICS ================= -->
+
+<section class="stats">
+
+    <div class="stat-box">
+        <h2>100+</h2>
+        <p>Cars</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>25+</h2>
+        <p>Brands</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>10000+</h2>
+        <p>Users</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>4.9★</h2>
+        <p>User Rating</p>
+    </div>
+
+</section>
+ <section class="testimonials">
+
+    <h2>💬 What Our Users Say</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <p>"AutoVerse helped me compare luxury cars easily. Amazing design!"</p>
+            <h3>- Aryan Pathak</h3>
+        </div>
+
+        <div class="testimonial-card">
+            <p>"The car details are clean, simple and very informative."</p>
+            <h3>- Kang Hyo Min</h3>
+        </div>
+
+        <div class="testimonial-card">
+            <p>"One of the best beginner car websites I've seen."</p>
+            <h3>- Thanos Slayy </h3>
+        </div>
+
+    </div>
+
+</section>   
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h3>🚗 AutoVerse</h3>
+            <p>Your ultimate destination for premium car information.</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+           <li><a href="cars.html">Cars</a></li>
+            <a href="compare.html">Compare</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <p>📧 info@autoverse.com</p>
+            <p>📍 India</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 AutoVerse. All Rights Reserved.
+    </p>
+
+</footer>

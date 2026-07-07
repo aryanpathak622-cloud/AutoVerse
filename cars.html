@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoVerse | Premium Car Information</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<button id="topBtn">⬆</button>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🚗 AutoVerse
+        </div>
+
+       <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+   <li><a href="cars.html" class="active">Cars</a></li>
+    <li><a href="compare.html">Compare</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+             <button id="themeBtn">🌙</button>
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+
+        <h1>Find Your Dream Car</h1>
+
+        <p>
+            Discover luxury, performance, speed, specifications,
+            prices and detailed information about the world's best cars.
+        </p>
+
+        <button>Explore Cars</button>
+
+    </section>
+<!-- ================= SEARCH SECTION ================= -->
+
+<section class="search-section">
+
+    <h2>🔍 Search Your Favorite Car</h2>
+
+    <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search Ferrari, BMW, Bentley..." onkeyup="searchCars()">
+    <button id="searchButton">Search</button>
+</div>
+
+</section>
+    <!-- ================= FEATURED CARS ================= -->
+
+    <!-- ================= FEATURED CARS ================= -->
+
+<section class="cars">
+
+    <h2>🔥 Featured Cars</h2>
+
+    <div class="car-container">
+
+        <!-- Ferrari -->
+        <div class="car-card">
+            <img src="images/Ferrari.jpg" alt="Ferrari">
+            <div class="car-info">
+                <h3>Ferrari LaFerrari ❤️</h3>
+                <p>Price: ₹7.50 Cr</p>
+                <p>789 HP • Top Speed: 350 km/h</p>
+              <a href="ferrari.html">
+    <button class="details-btn">View Details</button>
+</a>
+
+<button class="fav-btn">🤍 Favorite</button>
+            </div>
+        </div>
+
+        <!-- BMW -->
+        <div class="car-card">
+            <img src="images/BMW M5.jpg" alt="BMW M5">
+            <div class="car-info">
+                <h3>BMW M5</h3>
+                <p>Price: ₹2.20 Cr</p>
+                <p>717 HP • Top Speed: 305 km/h</p>
+                <a href="bmw.html">
+    <button class="details-btn">View Details</button>
+</a>
+                <button class="fav-btn">🤍 Favorite</button>
+            </div>
+        </div>
+
+        <!-- Bentley -->
+        <div class="car-card">
+            <img src="images/Bentley.jpg" alt="Bentley">
+            <div class="car-info">
+                <h3>Bentley Continental GT</h3>
+                <p>Price: ₹5.50 Cr</p>
+                <p>771 HP • Top Speed: 335 km/h</p>
+                <a href="bentley.html">
+                    <button class="details-btn">View Details</button>
+                </a>
+                <button class="fav-btn">🤍 Favorite</button>
+            </div>
+        </div>
+
+        <!-- Lamborghini -->
+        <div class="car-card">
+            <img src="images/Lamborghini Aventador .jpg">
+            <div class="car-info">
+                <h3>Lamborghini Aventador</h3>
+                <p>Price: ₹6.25 Cr</p>
+                <p>769 HP • Top Speed: 350 km/h</p>
+               <a href="lamborghini.html">
+    <button class="details-btn">View Details</button>
+</a>
+
+<button class="fav-btn">🤍 Favorite</button>
+            </div>
+        </div>
+
+        <!-- Bugatti -->
+        <div class="car-card">
+            <img src="images/Bugatti.jpg" alt="Bugatti">
+            <div class="car-info">
+                <h3>Bugatti Chiron</h3>
+                <p>Price: ₹19.21 Cr</p>
+                <p>1500 HP • Top Speed: 420 km/h</p>
+               <a href="bugatti.html">
+    <button class="details-btn">View Details</button>
+</a>
+
+<button class="fav-btn">🤍 Favorite</button>
+            </div>
+        </div>
+
+        <!-- Porsche -->
+        <div class="car-card">
+            <img src="images/Porsche 911 GT3 .jpg">
+            <div class="car-info">
+                <h3>Porsche 911 GT3</h3>
+                <p>Price: ₹2.75 Cr</p>
+                <p>510 HP • Top Speed: 318 km/h</p>
+                <a href="porsche.html">
+    <button class="details-btn">View Details</button>
+</a>
+
+<button class="fav-btn">🤍 Favorite</button>
+            </div>
+        </div>
+
+        <!-- Audi -->
+        <div class="car-card">
+            <img src="images/Audi RS7.jpg">
+            <div class="car-info">
+                <h3>Audi RS7</h3>
+                <p>Price: ₹2.24 Cr</p>
+                <p>630 HP • Top Speed: 305 km/h</p>
+                <a href="audi.html">
+    <button class="details-btn">View Details</button>
+</a>
+
+<button class="fav-btn">🤍 Favorite</button>
+            </div>
+        </div>
+
+        <!-- Mercedes -->
+        <div class="car-card">
+            <img src="images/Mercedes Benz AMG C53 .jpg">
+            <div class="car-info">
+                <h3>Mercedes-AMG C53</h3>
+                <p>Price: ₹1.30 Cr</p>
+                <p>449 HP • Top Speed: 250 km/h</p>
+               <a href="mercedes.html">
+    <button class="details-btn">View Details</button>
+</a>
+
+<button class="fav-btn">🤍 Favorite</button>
+            </div>
+        </div>
+
+        <!-- McLaren -->
+        <div class="car-card">
+            <img src="images/McLaren.jpg" alt="McLaren">
+            <div class="car-info">
+                <h3>McLaren 750S</h3>
+                <p>Price: ₹5.91 Cr</p>
+                <p>740 HP • Top Speed: 332 km/h</p>
+                <a href="mclaren.html">
+    <button class="details-btn">View Details</button>
+</a>
+
+<button class="fav-btn">🤍 Favorite</button>
+            </div>
+        </div>
+
+        <!-- Rolls-Royce -->
+        <div class="car-card">
+            <img src="images/Rolls Royce.jpg">
+            <div class="car-info">
+                <h3>Rolls-Royce Phantom</h3>
+                <p>Price: ₹10.48 Cr</p>
+                <p>563 HP • Top Speed: 250 km/h</p>
+                <a href="rolls-royce.html">
+    <button class="details-btn">View Details</button>
+</a>
+
+<button class="fav-btn">🤍 Favorite</button>
+            </div>
+        </div>
+
+        <!-- Nissan -->
+        <div class="car-card">
+           <img src="images/Nissan GTR 💀.jpg">
+            <div class="car-info">
+                <h3>Nissan GT-R</h3>
+                <p>Price: ₹2.12 Cr</p>
+                <p>565 HP • Top Speed: 315 km/h</p>
+               <a href="nissan.html">
+    <button class="details-btn">View Details</button>
+</a>
+
+<button class="fav-btn">🤍 Favorite</button>
+            </div>
+        </div>
+
+        <!-- Koenigsegg -->
+        <div class="car-card">
+           <img src="images/Koenigsegg jesko.jpg">
+            <div class="car-info">
+                <h3>Koenigsegg Jesko</h3>
+                <p>Price: ₹24.00 Cr</p>
+                <p>1600 HP • Top Speed: 480 km/h</p>
+                <a href="koenigsegg.html">
+    <button class="details-btn">View Details</button>
+</a>
+
+<button class="fav-btn">🤍 Favorite</button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+            <!-- Bentley -->
+
+         <div class="car-card" id="bentley">
+
+    <img src="images/Bentley.jpg" alt="Bentley">
+
+    <div class="car-info">
+
+        <h3>Bentley Continental GT</h3>
+
+        <p>Price: ₹5.50 Cr</p>
+
+        <p>771 HP • Top Speed: 335 km/h</p>
+
+        <a href="bentley.html">
+    <button class="details-btn">View Details</button>
+</a>
+
+<button class="fav-btn">🤍 Favorite</button>
+
+    </div>
+
+</div>
+    <!-- ================= POPULAR BRANDS ================= -->
+
+    <section class="cars">
+
+        <h2>🏁 Popular Brands</h2>
+
+        <div class="car-container">
+
+            <div class="car-card">
+                <div class="car-info">
+                    <h3>Ferrari</h3>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-info">
+                    <h3>BMW</h3>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-info">
+                    <h3>Bentley</h3>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-info">
+                    <h3>Lamborghini</h3>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-info">
+                    <h3>Porsche</h3>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-info">
+                    <h3>Bugatti</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+<!-- ================= LATEST LAUNCHES ================= -->
+
+<section class="cars">
+
+    <h2>🚀 Latest Launches</h2>
+
+    <div class="car-container">
+
+        <div class="car-card">
+            <img src="images/Ferrari.jpg" alt="Ferrari">
+            <div class="car-info">
+                <h3>Ferrari F80</h3>
+                <p>Released: 2025</p>
+                <p>1200 HP</p>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <img src="images/BMW M5.jpg" alt="BMW">
+            <div class="car-info">
+                <h3>BMW M5 Hybrid</h3>
+                <p>Released: 2025</p>
+                <p>717 HP</p>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <img src="images/Bentley.jpg" alt="Bentley">
+            <div class="car-info">
+                <h3>Bentley GT Speed</h3>
+                <p>Released: 2025</p>
+                <p>771 HP</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= STATISTICS ================= -->
+
+<section class="stats">
+
+    <div class="stat-box">
+        <h2>100+</h2>
+        <p>Cars</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>25+</h2>
+        <p>Brands</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>10000+</h2>
+        <p>Users</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>4.9★</h2>
+        <p>User Rating</p>
+    </div>
+
+</section>
+    
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h3>🚗 AutoVerse</h3>
+            <p>Your ultimate destination for premium car information.</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <li><a href="cars.html">Cars</a></li>
+            <a href="compare.html">Compare</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <p>📧 info@autoverse.com</p>
+            <p>📍 India</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 AutoVerse. All Rights Reserved.
+    </p>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
